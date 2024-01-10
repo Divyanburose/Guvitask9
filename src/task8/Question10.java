@@ -14,7 +14,7 @@ int num = sc.nextInt(); // getting integer value from the user
 int count = 0; // count datatype initialized to zero
 while (num !=0) { //number is not equal to 0
 num/=10;// num divided by 10 is the value num.
-count++; //Looping occurs starts from 0 and increased by 1 for each integer.
+count++; //Looping occurs starts from 0+1 and increased by 1 for each integer.
 }
 System.out.println("Number of digits:"+count);// Concatenate +count 
 	}

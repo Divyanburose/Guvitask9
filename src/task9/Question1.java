@@ -8,12 +8,12 @@ public class Question1 {
 		// TODO Auto-generated method stub
 Scanner sc = new Scanner (System.in);
 System.out.println("Enter a string:");
-String input = sc.next();
+String input = sc.next();// get input string from user
 
-boolean Palindrome = true;
+boolean Palindrome = true;//to check input string is palindrome
 
 for (int i=0; i<input.length() / 2;i++) {
-	if(input.charAt(i) != input.charAt(input.length() -1 -i)) {
+	if(input.charAt(i) != input.charAt(input.length() -1 -i)) {//
 		Palindrome = false;
 		break;
 	}

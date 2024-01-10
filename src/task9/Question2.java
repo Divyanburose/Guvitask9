@@ -8,13 +8,13 @@ public class Question2 {
 		// TODO Auto-generated method stub
 Scanner sc = new Scanner(System.in);
 System.out.println("Enter a string:");
-String input = sc.next();
+String input = sc.next();//gets string value from user
 
 String reversed = "";
-for (int i = input.length() -1; i >= 0; i--) {
+for (int i = input.length() -1; i >= 0; i--) { //get input hen calculate its length
 	reversed +=input.charAt(i);
 }
-System.out.println("Reversed string: "+reversed);	
+System.out.println("Reversed string: "+reversed);//prints reversed string value
 	}
 
 }
